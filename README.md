@@ -3,8 +3,11 @@ A convolutional neural network (CNN) designed to predict if a peony is ready to 
 
 # General Information
 **Name:** PeonAI
+
 **AI Type:** Convolutional Neural Network (CNN) through Tensorflow and Keras.
+
 **Purpose:** To predict the readiness of different varieties of peony buds for harvest.
+
 ## Primary Goal
 The AI will likely output a “state” value (from zero to two), zero being underdue and two being overdue. 
 ## Stretch Goals
