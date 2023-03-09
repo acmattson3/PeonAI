@@ -24,7 +24,7 @@ The following will describe the type of data that should be collected, how we wi
 * Peony bud photograph
   * At a fixed distance.
   * The diameter measurement might cover this.
-* If the distance is fixed, camera focusing is not a problem!
+  * If the distance is fixed, camera focusing is not a problem!
   * Possibly from both the top and side?
 * Estimated peony bud state (according to the measurer)
   * An estimated state value ensures the maximum utilization of photos and measurements taken before, during, and after the ideal harvesting window.
