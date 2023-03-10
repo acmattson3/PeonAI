@@ -21,13 +21,13 @@ Currently, the bottleneck in my local farm's growth and success appears to be ge
 ## Primary Goal
 The AI will output a “state” value (from zero to two), with zero being underdue and two being overdue. A value of one will represent the most ideal peony state for harvesting. 
 ## Stretch Goals
-1. The AI should also output a prediction, in seconds (and interpreted later to a time/date), indicating when the bud will be most ready for harvest. This may require a separate network given past, present, and predicted future weather data, nearby flower states, and the output of the primary goal AI (the current bud state-value). 
+1. The AI should also output a prediction, in seconds (and interpreted later to a time/date), indicating when the bud will be most ready for harvest. This will likely require a separate network given past, present, and predicted future weather data, nearby flower states, the output of the primary goal AI (the current bud state value), and probably more factors (as I think of them) that can affect the speed at which peony buds bloom.
 2. Soon to be more ideas as I inevitably come up with them!
 
 # Training Data
 The following will describe the type of data that should be collected, how we will collect it, and how it will be formatted. 
 
-## Data to Collect (for Primary Goal)
+## Data to Collect: Primary Goal
 * Peony variety
   * A separate boolean input for each variety.
   * Make a data structure to automate this.
@@ -41,7 +41,7 @@ The following will describe the type of data that should be collected, how we wi
   * An estimated state value ensures the maximum utilization of photos and measurements taken before, during, and after the ideal harvesting window.
   * A value of zero indicates an underdue bud. A value of two indicates an overdue bud. The most harvestable peony bud is closest to a value of one. A value of 0.5 would show some good signs of readiness, and a value of 1.5 would show that the bud has been ready for some time and may be approaching overdue.
 
-## Data to Collect (for Stretch Goal #1)
+## Data to Collect: Stretch Goal #1
 * Measurement and Harvest times/dates
   * When the photo and measurements were taken.
   * When the bud was harvested.
