@@ -1,7 +1,7 @@
 # PeonAI
 A convolutional neural network (CNN) designed to predict if a peony is ready to harvest. Built in Python using Tensorflow and Keras. Data processed using C++ or Python.
 
-# PeonAI: General Information
+# General Information
 
 **AI Type:** Convolutional Neural Network (CNN) through Tensorflow and Keras.
 
