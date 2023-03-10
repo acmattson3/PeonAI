@@ -22,6 +22,7 @@ Currently, the bottleneck in my local farm's growth and success appears to be ge
 The AI will output a “state” value (from zero to two), with zero being underdue and two being overdue. A value of one will represent the most ideal peony state for harvesting. 
 ## Stretch Goals
 1. The AI should also output a prediction, in seconds (and interpreted later to a time/date), indicating when the bud will be most ready for harvest. This may require a separate network given past, present, and predicted future weather data, nearby flower states, and the output of the primary goal AI (the current bud state-value). 
+2. Soon to be more ideas as I inevitably come up with them!
 
 # Training Data
 The following will describe the type of data that should be collected, how we will collect it, and how it will be formatted. 
