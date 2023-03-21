@@ -10,8 +10,8 @@ A convolutional neural network (CNN) designed to predict if a peony is ready to 
 ## Primary Goal
 The AI will output a “state” value (from zero to two), with zero being underdue and two being overdue. Values closest to one will indicate the peony bud is at the most ideal state for harvesting. 
 ## Stretch Goals
-1. The AI should also output a prediction, in seconds (and interpreted later to a time/date), indicating when the bud will be most ready for harvest. This will likely require a separate network given past, present, and predicted future weather data, nearby flower states, the output of the primary goal AI (the current bud state value), and probably more factors (as I think of them) that can affect the speed at which peony buds bloom.
-2. Soon to be more ideas as I inevitably come up with them!
+1. The AI (or a new AI) should output a prediction, in seconds (and interpreted later to a time/date), indicating when the bud will be most ready for harvest. This will likely require a separate network given past, present, and predicted future weather data, nearby flower states, the output of the primary goal AI (the current bud state value), and probably more factors (as I think of them) that can affect the speed at which peony buds bloom.
+2. The AI (or a new AI) should output a value from zero to one indicating how likely a particular peony is infected with a disease. This could either be general (indicating the presence of ANY disease) or it could predict the chance that a peony has every disease (the most likely one being the disease it thinks the peony has). A further stretch for this goal could be identifying physically deformed peonies alongside diseased ones. 
 
 ## Explanation
 Alaska, where I am from, is home to many peony (a highly popular flower) farms. I have had the pleasure of working on one of these farms, known as Alaska Peonyworks. I plan to work there in future summers, and so I am developing this AI to assist myself - and future workers - with knowing when to harvest flowers.
